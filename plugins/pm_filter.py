@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
-        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙼𝙿𝙳  𝙻𝚒𝚗𝚔𝚣𝚣', url='https://t.me/MPD_Linkzz') ] ] )
+        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] )
         
         
         await query.answer()
