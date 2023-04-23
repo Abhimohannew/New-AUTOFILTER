@@ -49,14 +49,14 @@ class script(object):
 Special Thanks to EvaMaria and Professor-Bot for the codes 
 <b>DEV:</b>
 
-- <a href=https://t.me/Jithis7>『ᴘɪʀᴏ』</a>
+- <a href=https://t.me/FF_Bots> 𝐅𝐅 𝐆𝐫𝐨𝐮𝐩 </a>
 - Source -  https://github.com/GouthamSER/Filter-Bot"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and PiroAutoFilterBot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. PiroAutoFilterBot should have admin privillage.
+1. 𝐋𝐄𝐎 should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -77,7 +77,7 @@ Special Thanks to EvaMaria and Professor-Bot for the codes
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. KuttuBot supports buttons with any telegram media type.
+2. 𝐋𝐄𝐎 supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
