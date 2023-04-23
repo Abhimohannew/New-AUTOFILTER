@@ -35,7 +35,7 @@ class script(object):
 
 ○𝖣𝗈𝗇𝗍 𝖲𝗉𝖺𝗆 𝖬𝖾...🤒
 
-😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Jithis7
+😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @FF_Bots
 """
     ABOUT_TXT = """
 ○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/FF_Bots'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
