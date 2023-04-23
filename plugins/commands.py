@@ -25,7 +25,7 @@ async def start(client, message):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FFMoviesBot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_UpdatesNew')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
@@ -46,14 +46,14 @@ async def start(client, message):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FFMoviesBot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_UpdatesNew')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEGj5hjgg59_usjYjzo5wOuxdgMMnRgrwACigcAAllQEFTTCQ7Ncv2JxysE")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -96,14 +96,14 @@ async def start(client, message):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FFMoviesBot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates1')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_UpdatesNew')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEGj5hjgg59_usjYjzo5wOuxdgMMnRgrwACigcAAllQEFTTCQ7Ncv2JxysE")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -150,7 +150,7 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙼𝙿𝙳  𝙻𝚒𝚗𝚔𝚣𝚣', url='https://t.me/MPD_Linkzz') ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] ),
                     protect_content=msg.get('protect', False),
                     )
             except FloodWait as e:
@@ -160,7 +160,7 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙼𝙿𝙳  𝙻𝚒𝚗𝚔𝚣𝚣', url='https://t.me/MPD_Linkzz') ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] ),
                     protect_content=msg.get('protect', False),
                     )
             except Exception as e:
@@ -255,7 +255,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙼𝙿𝙳  𝙻𝚒𝚗𝚔𝚣𝚣', url='https://t.me/MPD_Linkzz') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
@@ -373,7 +373,7 @@ async def delete_all_index(bot, message):
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer('Piracy Is Crime')
-    await message.message.edit('Succesfully Deleted All The Indexed Files.')
+    await message.message.edit('Successfully Deleted All The Indexed Files.')
 
 
 @Client.on_message(filters.command('settings'))
