@@ -9,7 +9,7 @@ class script(object):
 ⚠️𝖬𝗈𝗋𝖾 𝖧𝖾𝗅𝗉 𝖧𝗂𝗍 /help
 
 
-😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @FF_Bots
+😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @FF_Linkz
 """
     HELP_TXT = """
 🙋🏻‍♂️   𝖧𝖾𝗅𝗅𝗈𝗈𝗈  {} 🤓
@@ -38,7 +38,7 @@ class script(object):
 😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @FF_Bots
 """
     ABOUT_TXT = """
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/FF_Bots'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/FF_Linkz'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
@@ -48,7 +48,7 @@ class script(object):
 Special Thanks to EvaMaria and Professor-Bot for the codes 
 <b>DEV:</b>
 
-- <a href=https://t.me/FF_Bots> 𝐅𝐅 𝐆𝐫𝐨𝐮𝐩 </a>"""
+- <a href=https://t.me/FF_Linkz> 𝐅𝐅 𝐆𝐫𝐨𝐮𝐩 </a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and PiroAutoFilterBot will respond whenever a keyword is found the message
