@@ -25,7 +25,7 @@ async def start(client, message):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FF_Movies_Bot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates3')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates4')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FF_Movies_Bot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates3')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates4')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
