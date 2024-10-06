@@ -365,7 +365,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
-        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] )
+        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Link2') ] ] )
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -379,7 +379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=query.from_user.id,
                     file_id=file_id,
                     caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Link2') ] ] ),
                     protect_content=True if ident == "filep" else False 
                 )
                 await query.answer('𝖢𝗁𝖾𝖼𝗄 𝖯𝖬, 𝖨 𝗁𝖺𝗏𝖾 𝗌𝖾𝗇𝗍 𝖿𝗂𝗅𝖾𝗌 𝗂𝗇 𝖯𝖬', show_alert=True)
@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
-        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] )
+        buttons = InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Link2') ] ] )
         
         
         await query.answer()
@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption,
-            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Bots') ] ] ),
+            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐅𝐅 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/FF_Link2') ] ] ),
             protect_content=True if ident == 'checksubp' else False
         )
     elif query.data == "pages":
@@ -429,7 +429,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📱 Share With Friends', url='https://t.me/share/url?url=Join%20%40FFMoviesBot%20For%20Download%20New%20Movies')
         ], [
             InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates3')
+            InlineKeyboardButton('🎬 𝐎𝐓𝐓 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/FF_OTT_Updates4')
         ], [
             InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
             InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
@@ -465,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🎬 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/FF_OTT_Updates3'),
+            InlineKeyboardButton('🎬 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/FF_OTT_Updates4'),
             InlineKeyboardButton('♥️ 𝖲𝗈𝗎𝗋𝖼𝖾', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 𝖧𝗈𝗆𝖾', callback_data='start'),
@@ -754,7 +754,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"👋 𝖧𝖾𝗅𝗅𝗈 FRIEND...!!!\n📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒\n\n♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 <b> [𝙼𝚊𝚜𝚝𝚎𝚛 𝙿𝚛𝚒𝚗𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛🎞️【𝙼𝙿𝙳】5.0](https://t.me/MPD_007_5) </b>"
+        cap = f"👋 𝖧𝖾𝗅𝗅𝗈 FRIEND...!!!\n📁 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗋𝖾 𝖱𝖾𝖺𝖽𝗒\n\n♨️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 <b> [ FF Group🎞️【𝙼𝙿𝙳】5.0](https://t.me/FF_Link2) </b>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
